@@ -1,7 +1,52 @@
-.header{
-    font-size: 88px;
+h1{
+    font-size: 75px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: orangered;
-    margin: 15px;
-    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+nav{
+    background-color: #dbd5d3;
+    height: 35px;
+    width: 500px;
+    margin: 20px;
+    padding: 6px;
+   
+}
+ a{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px;
+    margin: 6px;
+    font-weight: 700;
+}
+.sect{
+    margin: 50px;
+    padding: 2px;
+    border: salmon;
+}
+.top{
+    margin: 50px;
+}
+.subdis{
+    float: left ;
+    margin-left: 30px;
+    padding: 4px;
+    border-radius:13px;
+}
+.on{
+	transition: all 2s ease;
+	padding:2px;
+	border-radius:9px;
+	margin-left: 30px;
+	width:60px; height:30px;
+    font-size: medium;
+}
+.on:hover{
+	background-color:#060EA0;
+	color:white; cursor:pointer;
+}
+.forin{
+    margin-top: 80px;
+    margin-left: 450px;
 }
