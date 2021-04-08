@@ -1,5 +1,5 @@
 h1{
-    font-size: 75px;
+    font-size: 86px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: orangered;
     margin-top: 30px;
@@ -14,6 +14,7 @@ nav{
     text-align: right;
    
 }
+
  a{
     text-decoration: none;
     font-size: 24px;
@@ -53,9 +54,7 @@ nav{
     margin-top: 80px;
     margin-left: 30%;
 }
-/* .ind-part{
-    background-color: rgb(197, 234, 245);
-} */
+
 .box-size{
     margin-left: 20%;
     padding: 5px;
@@ -85,4 +84,25 @@ p{
     font-weight: 500;
     background-color: rgb(184, 176, 176);
     color: rgb(17, 1, 1);
+}
+footer{
+    text-align: center;
+    margin-top: 80px;
+    height: 25px;
+    background-color: black;
+    font-weight: 800;
+    color: rgb(212, 204, 191);
+    padding: 5px;
+}
+
+.background-img{
+	background: url('images/royel.jpg') no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	color: rgb(245, 248, 248);
+    font-weight: 650;
+    font-size:32px ;
+}
+.contain{
+    background-color: rgb(173, 245, 182);
 }
