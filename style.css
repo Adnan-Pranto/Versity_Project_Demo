@@ -6,11 +6,12 @@ h1{
     text-align: center;
 }
 nav{
-    background-color: #dbd5d3;
-    height: 35px;
-    width: 500px;
-    margin: 20px;
+    background-color: #0f0501;
+    height: 30px;
+    width: 99%;
+    margin: 16px 8px;
     padding: 6px;
+    text-align: right;
    
 }
  a{
@@ -19,6 +20,7 @@ nav{
     padding: 5px;
     margin: 6px;
     font-weight: 700;
+    color: rgb(245, 248, 248);
 }
 .sect{
     margin: 50px;
@@ -35,18 +37,52 @@ nav{
     border-radius:13px;
 }
 .on{
-	transition: all 2s ease;
+	
 	padding:2px;
 	border-radius:9px;
-	margin-left: 30px;
-	width:60px; height:30px;
+	margin-left: 40px;
+	width:70px; height:40px;
     font-size: medium;
+    background-color:tomato;
 }
-.on:hover{
+.on:hover {
 	background-color:#060EA0;
 	color:white; cursor:pointer;
 }
 .forin{
     margin-top: 80px;
-    margin-left: 450px;
+    margin-left: 30%;
+}
+/* .ind-part{
+    background-color: rgb(197, 234, 245);
+} */
+.box-size{
+    margin-left: 20%;
+    padding: 5px;
+    width: 60%;
+    background-color: rgb(98, 101, 104);
+    color: white;
+    
+}
+.creat-account{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 650;
+    padding: 4px;
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(238, 224, 224);
+    background-color:orange;
+    
+}
+.input-class{
+    height: 21px;
+    width: 200px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: rgb(184, 176, 176);
+    color: rgb(17, 1, 1);
 }
