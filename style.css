@@ -87,7 +87,7 @@ p{
 }
 footer{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 190px;
     height: 25px;
     background-color: black;
     font-weight: 800;
@@ -105,4 +105,28 @@ footer{
 }
 .contain{
     background-color: rgb(173, 245, 182);
+}
+
+#Log-Ininfo{
+    font-family: 'Roboto', sans-serif;
+    background:url("images/kaptai-lake.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+#next-page{
+    background-color: cornsilk;
+    border: 1px solid #ddd;
+    padding: 25px;
+    display: none;
+    border-radius: 5px;
+    float: left;
+}
+.booking-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 410px;
 }

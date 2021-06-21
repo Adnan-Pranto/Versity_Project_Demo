@@ -9,49 +9,75 @@
     <title>Log In Page</title>
 </head>
 
-<body>
+<body id="Log-Ininfo">
     <section>
+        <header class="container">
         <nav class="navigetion">
             <a href="index.html">Home</a>
             <a href="about.html">About us</a>
             <a href="contact.html">Contact</a>
             <a href="login.html">Add your Info </a>
         </nav>
+    </header>
+
+        <section id="first-page">
+            <div>
+                <h1> If You want to add somthing in our site you need to Log in first..!!</h1>
+            </div>
+            <div>
+                <form action="" method="">
+                    <fieldset class="box-size">
+                        <p>Give Your Information</p>
+
+                        <div class="creat-account">
+                            First Name : <input class=" input-class" type="first name" placeholder="first name"> <br>
+                            <br>
+                            Last Name : <input class=" input-class" type="last name" placeholder="last name"> <br> <br>
+                            Contact No : <input class=" input-class" type="number"> <br> <br>
+                            E-mail : &nbsp &nbsp &nbsp &nbsp <input class=" input-class" type="mail"
+                                placeholder="give a valid e-mail address"> <br>
+                            <br>
+                            Password: &nbsp &nbsp
+                            <input class=" input-class" type="password" /> <br /> <br />
+                            Confirm : &nbsp &nbsp
+                            <input class=" input-class" type="password" /> <br /> <br />
+
+                        </div>
+
+                        <div class="forin ">
+                            <a class="on"  id="nextpage" > Sing In</a>
+                            <button class="on">Clear</button>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <section id="next-page">
+            <div class="booking-form ">
+                <h2 style="font-size: 34px; color: rgb(212, 25, 41);"> Congratulation..!!</h2>
+                <h3 style="font-size: 26px; color: coral;"> Your payment is successfully Complete</h3>
+            </div>
+           
+        </section>
+
     </section>
-    <section>
-        <div>
-            <h1> If You want to add somthing in our site you need to Log in first..!!</h1>
-        </div>
-        <div>
-            <form action="" method="">
-            <fieldset class="box-size">
-                <p>Give Your Information</p>
 
-                <div class="creat-account"> 
-                    First Name : <input class=" input-class" type="first name" placeholder="first name"> <br> <br>
-                    Last Name : <input class=" input-class" type="last name" placeholder="last name"> <br> <br>
-                    Contact No : <input class=" input-class" type="number"> <br> <br>
-                    E-mail : &nbsp &nbsp &nbsp &nbsp <input class=" input-class" type="mail" placeholder="give a valid e-mail address"> <br>
-                    <br>
-                    Password: &nbsp &nbsp
-                    <input class=" input-class" type="password" /> <br /> <br />
-                    Confirm : &nbsp &nbsp
-                    <input class=" input-class" type="password" /> <br /> <br />
+    <script>
+        //  Break another page.
+        const newPage = document.getElementById("nextpage");
+        newPage.addEventListener("click", function () {
+            const newArea = document.getElementById("first-page");
+            newArea.style.display = "none";
+            const confarmationText = document.getElementById("next-page");
+            confarmationText.style.display = "block";
 
-                </div>
+        });
+    </script>
 
-                <div class="forin ">
-                    <button class="on">Sing In</button>
-                    <button class="on">Clear</button>
-                </div>
-
-            </fieldset>
-        </form>
-        </div>
-    </section>
 </body>
 <footer>
-    <div>All Rights Reserved @Team Sperakel</div>
-  </footer>
-
+  <div>All Rights Reserved @Team Sperakel</div>
+</footer>
 </html>
