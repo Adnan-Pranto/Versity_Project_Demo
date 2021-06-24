@@ -1,24 +1,52 @@
-#marin{
-    /* font-size: 500px; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(57, 230, 95);
-    margin-top: 150px;
-    text-align: center; 
-    background-color: rgb(142, 18, 180);
+        /* Design of Navigation Bar  */
+a{
+text-decoration: none;
+font-size: 24px;
+padding: 5px;
+/* margin: 6px; */
+font-weight: 700;
+color: rgb(247, 244, 245);
 }
-h1{
-    font-size: 1500px;
+.navigation{
+    background-color: #0f0501;
+    height: 50px;
+    width: 99%;
+    margin: 16px 8px;
+    padding: 6px;
+    text-align: right;
+   
 }
 
+#marin{
+  
+    margin-top: 50px;
+    text-align: center; 
+    background-color: rgb(76, 40, 236);
+}
+
+h1{
+    font: bold;
+    font-size: 100px;
+    color: tomato;
+}
+h2{
+    font-size: 15px;
+    color: yellow;
+}
+
+
+        /* ... Contain & Margin-gap Both for Travil info add perpas ..  */
 .contain{
-    margin-top: 150px;
     background-color: rgb(214, 219, 215);
 }
 
+.Margin-gap{
+    margin-top: 70px;
+}
 
 
 .image-modyfy{
-    height:370px;
+    height:300px;
     width:390px;
     background-color: gainsboro;
 }
