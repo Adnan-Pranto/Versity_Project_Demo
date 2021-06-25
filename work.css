@@ -14,24 +14,28 @@ color: rgb(247, 244, 245);
     margin: 16px 8px;
     padding: 6px;
     text-align: right;
-   
+  
 }
 
 #marin{
   
     margin-top: 50px;
     text-align: center; 
-    background-color: rgb(76, 40, 236);
+    background-color: rgb(18, 29, 182);
 }
 
 h1{
     font: bold;
-    font-size: 100px;
-    color: tomato;
+    font-size: 90px;
+    color: rgba(114, 240, 245, 0.966);
+  
 }
 h2{
     font-size: 15px;
-    color: yellow;
+    color: #f7f7ef;
+    /* margin: 3px ,3px; */
+    padding: 2px 3px;
+    font: bold;
 }
 
 

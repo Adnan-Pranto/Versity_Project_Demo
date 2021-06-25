@@ -10,19 +10,20 @@
 </head>
 
 <body id="Log-Ininfo">
-    <section>
+    <section >
         <header class="container">
-            <nav >
+            <nav>
                 <a href="index.html">Home</a>
-                <a href="about.html">About us</a>
-                <a href="contact.html">Contact</a>
                 <a href="login.html">Add your Info </a>
+                <a href="about.html">About us</a>
+                <a href="contact.html">Other</a> 
             </nav>
+    
         </header>
 
         <section id="first-page">
             <div>
-                <h1> If You want to add somthing in our site you need to Log in first..!!</h1>
+                <h1 style="color: black;"> কোন তথ্য দিতে চাইলে সাইন ইন করুন... </h1>
             </div>
             <div>
                 <form action="" method="">
@@ -56,13 +57,40 @@
         <!-- After Registration For next page Massege..!!  -->
         <section id="next-page">
             <div class="booking-form ">
-                <h2 style="font-size: 34px; color: rgb(212, 25, 41);"> Congratulation..!!</h2>
-                <h3 style="font-size: 26px; color: coral;"> Your payment is successfully Complete</h3>
+                <h2 style="text-align: center; font-size: 34px; color: rgb(212, 25, 41);">অভিনন্দন, আপনার প্রক্রিয়াটি সম্পন্ন হয়েছে...! <br>
+                
+            <form action="" method="">
+                <fieldset  style="margin-top: 150px; background-color: rgb(160, 165, 165); font-size: 20px; text-align: left ; color: rgb(44, 7, 175);">
+                    <legend style="font-size: 14px; text-align: center; color: black;" > সঠিক তথ্য দিয়ে নিচের ফর্মটি পূরন করুন </legend> <br/> <br/>
+                   
+                    দর্শনীয় স্থানের নাম: <br/>
+				<input type="text" name="firstname" placeholder="এলাকার নাম লিখুন"> <!--  placeholder="give ur Last name" lite text in blank box-->
+					<br/> <br/>
+				জেলা: <br/>
+				<input type="text" name="lasttname" >
+					<br/> <br/>
+
+                    বিভাগ: <br/>
+				<input type="text" name="lasttname" >
+					<br/> <br/>
+                   
+                    উক্ত দর্শনীয় স্থান সম্পর্কে বিস্তারিত লিখুন: <br/>
+					<textarea rows="9" cols="45" placeholder=" please give  deatils"> </textarea>
+
+                    <div> <br>
+                        <label for="formFileLg" class="form-label">ফাইলটি এটাস্ট করুন :</label>
+                        <input style="font-size: medium;" class="form-control form-control-lg" id="formFileLg" type="file">
+                    </div>
+                    
+                    <br/><br/>	<input class="on" type="submit">
+				<input class="on" type="reset">	 <br/> <br/>
+                </fieldset>
+
+            </form>
+         </h2>
+                <h3 style="font-size: 10px; color: coral;"> Thanks for supporting...!</h3>
             </div>
-            <div>
-                <label for="formFileLg" class="form-label">Please Attach your file</label>
-                <input class="form-control form-control-lg" id="formFileLg" type="file">
-            </div>
+            
         </section>
         <!-- End of page -2..  -->
     </section>
