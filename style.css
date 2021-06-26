@@ -25,6 +25,12 @@ a{
     font-weight: 700;
     color: rgb(245, 248, 248);
 }
+        /* For carosol..  */
+
+.carousel-item{
+    height: auto;
+    width: 100%;
+}
 .sect{
     margin: 50px;
     padding: 2px;
