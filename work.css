@@ -55,6 +55,15 @@ h2{
     background-color: gainsboro;
 }
 
+.div3:hover{
+	/* background-color:#E91507; */
+	width:400px; height: 370px;
+	/* -webkit-transform:rotate(360deg); */
+	color: white;padding:5px;
+	/* transform:rotate(360deg); */
+}
+
+
 footer{
     text-align: center;
     margin-top: 500px;
